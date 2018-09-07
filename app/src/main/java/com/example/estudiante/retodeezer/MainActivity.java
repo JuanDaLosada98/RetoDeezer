@@ -43,5 +43,7 @@ public class MainActivity extends AppCompatActivity {
 // set a requestId, that will be passed on the listener's callback methods
         request.setId("myRequest");
 
+        deezerConnect.requestAsync(request, listener);
+
     }
 }
